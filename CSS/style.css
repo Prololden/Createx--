@@ -1,0 +1,650 @@
+.block_one,.block_two,.block_tree,.block_four,.block_five,.block_six,.block_seven,.block_skritiy {
+    font-family: 'Rubik', sans-serif;
+}
+.block_one {
+    background-color: rgba(90, 135, 252, 0.7);
+    padding-top: 20px;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 96px;
+    position:fixed;
+    background-color: rgba(90, 135, 252, 0.7);
+    margin-left: 105px;
+    margin-top: -20px;
+    z-index: 100;
+    border-radius: 12px;
+}
+.header_logo{
+    padding-right: 105px;
+}
+.header_nav{
+    padding-right: 175px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav a {
+    background-color: transparent;
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.nav li {
+    margin: 0 40px 0 0;
+    padding: 0;
+}
+.Header_H1 {
+    font-size: 64px;
+    line-height: 83.2px;
+}
+.col-12 button {
+    margin: 0 20px 0 0;
+}
+.btn_about {
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 12px;
+    width: 124px;
+    height: 52px;
+}
+.btn_about:hover {
+    box-shadow: 2px 2px 20px orangered;
+}
+.btn_project {
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 12px;
+    width: 197px;
+    height: 52px;
+}
+.btn_project:hover {
+    box-shadow: 2px 2px 20px black;
+}
+.button {
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 12px;
+    width: 175px;
+    height: 52px;
+}
+.button:hover {
+    box-shadow: 2px 2px 20px black;
+}
+.stat {
+    margin-top: 221px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block_two {
+    background-color: white;
+    padding-top: 100px;
+}
+.Header_H2 {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0px 100px;
+}
+.Header_H2_1 {
+    font-size: 46px;
+    line-height: 59.8px;
+    margin: 0px 0px 30px 100px;
+    font-weight: 600;
+}
+.btn_svyz{
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 12px;
+    margin: 55px 100px;
+    width: 197px;
+    height: 52px;
+}
+.btn_svyz:hover{
+    box-shadow: 2px 2px 20px black;
+}
+
+ .nav_2{
+    list-style-type: none;
+    margin: 0 200px 0 0;
+    padding-left: 100px;
+}
+.nav_2 li{
+    background: no-repeat url(/Lesson-13/IMAGES/check.svg) left center;
+    padding-left: 32px;
+    line-height: 30px;
+}
+.Header_H3{
+    padding-top: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 15px;
+}
+.Header_H3_1{
+    font-size: 46px;
+    line-height: 59.8px;
+    margin: 0px 0px 30px 13px;
+    font-weight: 600;
+}
+.header_1{
+    position: relative;
+    width: 70%;
+    height: 200px;
+    background: no-repeat url(/Lesson-13/IMAGES/borodach.svg) right center;
+}
+.header_2{
+    position: relative;
+    width: 70%;
+    height: 200px;
+    background: no-repeat url(/Lesson-13/IMAGES/shalava.svg) right center;
+}
+.header_3{
+    position: relative;
+    width: 70%;
+    height: 200px;
+    background: no-repeat url(/Lesson-13/IMAGES/poser.svg) right center;
+}
+.info{
+    display: flex;
+    border: 2px ridge;
+    border-radius: 6px;
+}
+.forma{
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 8 px;
+    padding-left: 32px;
+}
+.zvanie{
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+.slovo{
+    margin-left: -10%;
+    padding-right: 15%;
+    align-items: center;
+    font-size: 18px;
+    line-height: 150%;
+    color: grey;
+}
+.slovo li{
+    list-style-type: none;
+}
+.zvanie p{
+    width: 38%;
+    border-radius: 6px;
+    background-color:aquamarine;
+}
+.zvanie_2 {
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+}
+.zvanie_2 p{
+    width: 15%;
+    border-radius: 6px;
+    background-color:skyblue;
+}
+.zvanie_3{
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+}
+.zvanie_3 p {
+    width: 34%;
+    border-radius: 6px;
+    background-color: orange;
+}
+.zvanie_4{
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+}
+.zvanie_4 p{
+    width: 44%;
+    border-radius: 6px;
+    background-color:aquamarine;
+}
+.zvanie_5{
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+}
+.zvanie_5 p{
+    width: 43%;
+    border-radius: 6px;
+    background-color:skyblue;
+}
+.zvanie_6{
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+}
+.zvanie_6 p{
+    width: 44%;
+    border-radius: 6px;
+    background-color: red;
+}
+.block_tree{
+    background-color: rgba(90, 135, 252, 0.7);
+    padding-top: 100px;
+}
+.info_2{
+    display: flex;
+    flex-direction: column;
+    columns: 1;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.Header_H4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.Header_H4_1{
+    font-size: 46px;
+    line-height: 59.8px;
+    font-weight: 600;
+}
+.android{
+    display: flex;
+    background-color: white;
+    width: 1230px;
+    margin-bottom: 24px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+.data{
+    display: flex;
+    margin-right: 35px;
+    margin-left: 45px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 182px;
+    height: 62px;
+}
+.slova{
+    margin-right: 8px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 757px;
+    height: 60px;
+    color: grey;
+    size: 16px;
+}
+.btn_issledovaniya{
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 12px;
+    width: 210px;
+    height: 52px;
+}
+.btn_issledovaniya:hover{
+    box-shadow: 2px 2px 20px black;
+}
+.btn_znaniya{
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-right: 40px;
+    width: 168px;
+    height: 44px;
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 12px;
+}
+.btn_znaniya:hover{
+    box-shadow: 2px 2px 20px orangered;
+}
+.mesyc{
+    margin-left: 20px;
+    color: grey;
+    size: 16px;
+    line-height: 25.6px;
+    font-weight: 400px;
+}
+.data__img{
+    width: 62px;
+    height: 62px;
+    font-size: 48px;
+    font-weight: bold;
+    color: orangered;
+    line-height: 62.4px;
+}
+.prosto{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    line-height: 30px;
+}
+.btn_lekciya{
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-right: 40px;
+    width: 168px;
+    height: 44px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 12px;
+}
+.btn_lekciya:hover{
+    box-shadow: 2px 2px 20px black;
+}
+.issledovanie{
+    display: flex;
+}
+.issledovanie button{
+    margin-left: 40px;
+}
+.bolche{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 150%;
+}
+.block_four{
+    background-color: white;
+    padding-top: 100px;
+}
+.project{
+    font-size: 46px;
+    line-height: 59.8px;
+    font-weight: 600;
+}
+.project__project{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-weight: 600;
+}
+.kartinki{
+    display: flex;
+}
+.cvet{
+    background-color:  rgba(90, 135, 252, 0.7);
+    padding-top: 35px;
+    margin-left: 0px;
+}
+.saiti{
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+}
+.information{
+    text-align: center;
+    color: grey;
+    line-height: 25.6px;
+    font-size: 16px;
+}
+.knopki{
+    display: flex;
+    float: right;
+    padding-right: 60px;
+    color: black;
+}
+.knopki button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-right: 12px;
+    font-size: 25px;
+}
+.btn_one:hover{
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+.knopk{
+    display: flex;
+    padding-left: 1000px;
+}
+.btn_tree{
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-right: 40px;
+    width: 168px;
+    height: 44px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 12px;
+}
+.btn_tree:hover{
+    box-shadow: 2px 2px 20px black;
+}
+.inf{
+    display: flex;
+    margin-top: 12px;
+}
+.it{
+    Size:14px;
+    line-height:21px;
+    padding-right: 12px;
+    color: gray;
+    font-weight: 600;
+    margin-top: 2.5px;
+}
+.dat{
+    display: flex;
+    color: gray;
+}
+.min{
+    display: flex;
+    color: gray;
+}
+.dat p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.min p{
+    margin-left: 12px;
+}
+.VPN{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 30px;
+}
+.platka{
+    font-size:14px;
+    line-height:21px;
+}
+.knopocka{
+    margin-top: 72px;
+    display: flex;
+}
+.knopocka p{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 700, bold;
+    margin-top: 15px;
+}
+.btn_next_next{
+    background-color: white;
+    border: 1px solid white;
+    color: orangered;
+    border-radius: 6px;
+}
+.news{
+    margin-left: 25px;
+}
+.email{
+
+    border-radius: 6px;
+}
+.email textarea{
+    padding-right: 26px;
+    margin-left: 16px;
+    margin-top: 13px;
+    color: grey;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+.btn_four{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 6px;
+    padding: 13px 40px;
+}
+.btn_four:hover{
+    box-shadow: 2px 2px 20px black;
+}
+.block_seven{
+    background-color: rgba(30, 33, 44, 1);
+}
+.predconec{
+    color: gray;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+}
+.text2{
+    padding-top: 24px;
+}
+.ssilki button{
+    margin-left: -10px;
+    margin-right: 10px;
+    background: none;
+    border: none;
+}
+.nav2{
+    list-style: none;
+}
+.nav2 a {
+    background-color: transparent;
+    color: gray;
+    text-decoration: none;
+    margin-left: -35px;
+}
+.btn_strelka{
+    border: none;
+    background:none;
+    color: grey;
+}
+.konec{
+    background-color: rgb(45, 49, 62);
+    display: flex;
+    
+}
+.col-12 p{
+    margin-top: 16px;
+}
+.GO{
+    list-style: none;
+}
+.GO a{
+    color: gray;
+    background-color: transparent;
+    padding: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.GO a:hover{
+    color: grey;
+}
+.block_skritiy{
+    display: none;
+}
+.okno{
+    background-color: black;
+
+}
+.okno_podpiska{
+    margin-left: 240px;
+    margin-top: 0px;
+}
+.okno_podpiska p{
+    padding-top: 50px;
+    color: black;
+    font-weight: 800,bold;
+    font-size: 24px;
+}
+.okno_formi{
+    display: flex;
+    margin-top: 50px;
+    color: gray;
+}
+.IMY{
+    margin-left: 90px;
+    text-align: center;
+    border-radius: 12px;
+}
+.IMY input{
+    text-align: center;
+}
+.Familiya{
+    margin-left: 90px;
+    text-align: center;
+    border-radius: 12px;
+}
+.Familiya input{
+    text-align: center;
+}
+.telefon_mail{
+    display: flex;
+    margin-top: 50px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.telephone{
+    margin-left: 90px;
+    text-align: center;
+    border-radius: 12px;
+}
+.telephone input{
+    text-align: center;
+}
+.e-mail{
+    margin-left: 90px;
+    border-radius: 12px;
+}
+.e-mail input {
+    text-align: center;
+}
+.btn_otpravit{
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 12px;
+    width: 150px;
+    height: 42px;
+    margin-left: 260px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+.btn_otpravit:hover{
+    box-shadow: 2px 2px 20px orangered;
+}
+.block_skritiy--pos {
+    position: fixed;
+    top:25%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.534);
+    z-index: 100;
+    
+}
